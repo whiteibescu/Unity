@@ -24,7 +24,7 @@ public class csEnemyRotate : MonoBehaviour
     /// Enemy를 클릭했을 때 외부에서 호출하는 메서드
     /// 진행시간 0
     /// 회전시작 true
-    /// </summary>
+    /// </summary>//
     public void RotateByHit()
     {
         accTime = 0f;
