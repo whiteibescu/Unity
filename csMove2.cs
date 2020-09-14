@@ -21,6 +21,7 @@ public class csMove2 : MonoBehaviour
         h = h * speed * Time.deltaTime;
         v = v * speed * Time.deltaTime;
 
+        
         // 현재 위치를 기준으로 이동
         this.transform.Translate(Vector3.right * h);
         this.transform.Translate(Vector3.forward * v);
